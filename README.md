@@ -37,7 +37,7 @@ python3 randomizer.py {number_of_instructions} {memory_size}
 - https://www.w3schools.com/python/python_file_handling.asp 
 
 ### Using markdown
-- https://www.markdownguide.org/getting-started/
+- https://www.markdownguide.org 
 
 ### Writing a ReadMe 
 - https://www.makeareadme.com
