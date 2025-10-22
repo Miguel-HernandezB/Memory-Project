@@ -2,7 +2,7 @@ import sys
 import random
 
 ##Asignning names to command line arguments
-MEM_SIZE = int(sys.argv[1])                     ##int() formats the arguments from type string to type int
+NUMBER_OF_PAGES = int(sys.argv[1])                     ##int() formats the arguments from type string to type int
 SAMPLE_SIZE = int(sys.argv[2])
 
 ##List of instructions 
@@ -14,7 +14,7 @@ file_name = "input.txt"
 ##Function that construct the format of the instructions within the .txt file
 def construct_inst():
     system_call = random.choice(INSTRUCTIONS)                           ##choice returns a random element from the given list
-    mem_address = random.randrange(0, int(MEM_SIZE))                 ##randint returns 
+    mem_address = random.randrange(0, int(NUMBER_OF_PAGES))                 ##randint returns 
 
     instruction_format = f"{system_call}:{mem_address} \n"              ##Creatring the wanted format in a string
 
